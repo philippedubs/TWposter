@@ -1,0 +1,9 @@
+created: 20181228234129292
+modified: 20190102002731437
+tags: 
+title: New Tiddler
+type: text/vnd.tiddlywiki
+
+<$set name=LoginState value={{$:/state/OokTech/Login}}>
+<$login-widget url='https://reqres.in/api/login' localstorageKey='ws-token' saveCookie='true'  bobLogin='true' cookieName='token' />
+</$set>

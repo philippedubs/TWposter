@@ -1,0 +1,27 @@
+created: 20190101214820389
+modified: 20190102003035243
+tags: 
+title: POST data
+type: text/vnd.tiddlywiki
+
+https://hooks.zapier.com/hooks/catch/2458593/01mmw4/
+
+<hr>
+
+reqres.in/api/users
+
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+
+<hr>
+
+
+<$button>
+    Submit Form Data
+    <$action-submitform
+    $url="reqres.in/api/users"
+    $tiddler=DataTiddler_forPOST
+    />
+</$button>

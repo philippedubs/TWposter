@@ -1,0 +1,10 @@
+created: 20181216200902662
+modified: 20190102003050979
+tags: 
+title: DataTiddler_forPOST
+type: application/json
+
+{
+    "name": "TempItem!!name",
+    "job": "TempItem!!job"
+}

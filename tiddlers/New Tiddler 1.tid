@@ -1,0 +1,7 @@
+created: 20181227020418481
+modified: 20181227022605209
+tags: 
+title: New Tiddler 1
+type: text/vnd.tiddlywiki
+
+<$login-widget url='https://reqres.in/api/login' cookieName='token' localstorageKey='ws-token'/>
